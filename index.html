@@ -86,9 +86,6 @@
             <div class="col-md-12 col-sm-12 text-center">
               <div class="contents">
                 <br>
-                <br>
-                <br>
-                <br>
                 <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Amy Debbané</h2>
                 <ul>
                   <li>
@@ -100,6 +97,10 @@
                 </p>
                 <br>
                 <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <!-- 3 columns -->
                 <div class="container">
                   <div class="row">
@@ -107,18 +108,21 @@
                     <div class="col-xs-12 col-sm-4">
                       <div class="box">
                         <p class="wow fadeInUp" data-wow-delay="0.7s">UX Strategist</p>
+                        <p class="wow fadeInUp"  data-wow-delay="0.7s">I use design thinking to solve user requests.</p>
                       </div>
                     </div>
                     
                     <div class="col-xs-12 col-sm-4">
                       <div class="box">
                         <p class="wow fadeInUp" data-wow-delay="0.7s">Developer</p>
+                        <p style="font-size: 14px">I see my UX strategized designs through with code.</p>
                       </div>
                     </div>
                     
                     <div class="col-xs-12 col-sm-4">
                       <div class="box">
-                        <p class="wow fadeInUp" data-wow-delay="0.7s">Gamer</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">Nature Lover</p>
+                        <p class="wow fadeInUp"  data-wow-delay="0.7s">If I need to take a step back at work you can find me outside looking at the bigger picture</p>
                       </div>
                     </div>
                     
@@ -137,13 +141,13 @@
     </header>
     <!-- Header Area wrapper End -->
 
-    <!-- Services Section Start -->
+    <!-- Experiences Section Start -->
     <section id="services" class="services section-padding">
       <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Experiences</h2>
       <div class="container">
         <div class="row">
           <!-- Services item -->
-          <div class="col-md-6 col-lg-3 col-xs-12">
+          <div class="col-md-4 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
               <div class="icon">
                 <i class="icon-grid"></i>
@@ -155,8 +159,8 @@
               </div>
             </div>
           </div>
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-3 col-xs-12">
+          <!-- Experience item -->
+          <div class="col-md-4 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon">
                 <i class="icon-grid"></i>
@@ -169,34 +173,23 @@
             </div>
           </div>
           <!-- Services item -->
-          <div class="col-md-6 col-lg-3 col-xs-12">
+          <div class="col-md-4 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
                 <img src="assets/img/icona.jpg">
               </div>
               <div class="services-content">
-                <h3><a href="ExperienceREAP.html">Student UX Researcher</a></h3>
+                <h3><a href="ExperienceREAP.html">UX Researcher</a></h3>
                 <p>University of Waterloo</p>
                 <p><i>September 2015 - December 2016</i></p>
               </div>
             </div>
           </div>
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-3 col-xs-12">
-            <div class="services-item wow fadeInDown" data-wow-delay="1.4s">
-              <div class="icon">
-                <i class="icon-grid"></i>
-              </div>
-              <div class="services-content">
-                <h3><a href="ExperienceGALL.html">Side Projects</a></h3>
-                <p>A gallery displaying my growth along my journey towards becoming a UX Developer</p>
-              </div>
-            </div>
-          </div>
+          <!-- Experience item -->
         </div>
       </div>
     </section>
-    <!-- Services Section End -->
+    <!-- Experiences Section End -->
 
 
     <!-- About Section Start -->
@@ -205,7 +198,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+              <img class="img-fluid" src="assets/img/about/about-3.jpg" alt="">
             </div>
           </div> 
           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -227,7 +220,7 @@
 
 
               <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i>Download Resume</a>
-              <a href="#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+              <a href="#contact" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
             </div>
           </div>   
         </div>
@@ -269,7 +262,8 @@
                               <div class="help-block with-errors"></div>
                            </div>
                            <div class="submit-button">
-                              <button class="btn btn-common disabled" id="submit" type="submit" style="pointer-events: all; cursor: pointer;">Send Message</button>
+                      
+                              <button href="" class="btn btn-common disabled" onclick="confirmSent()" id="submit" type="submit" style="pointer-events: all; cursor: pointer;">Send Message</button> <script type="text/javascript"> function confirmSent(){alert("Hi [name], I look forward to continuing the conversation with you")} </script>
                               <div id="msgSubmit" class="h3 text-center hidden"></div>
                               <div class="clearfix"></div>
                            </div>
@@ -309,27 +303,16 @@
 </section>
     <!-- Contact Section End -->
 
+    
     <!-- Footer Section Start -->
-    <footer class="footer-area section-padding">
+    <footer class="footer-area" style="padding-top: 15px; padding-bottom: 15px;"">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="footer-text text-center">
               <ul class="social-icon">
                 <li>
-                  <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="instagram" href="#"><i class="icon-social-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="instagram" href="#"><i class="icon-social-google"></i></a>
+                  <a class="instagram" href="https://ca.linkedin.com/in/amydebbane"><i class="icon-social-linkedin"></i></a>
                 </li>
               </ul>
               <p>© 2018 by Amy Debbané</p>
