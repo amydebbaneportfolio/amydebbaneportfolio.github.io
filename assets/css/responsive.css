@@ -78,4 +78,17 @@
   .footer-right-area {
     margin-top: 20px;
   }
+  .hero-area-bg {
+  background: url(../img/hero-area-sm.jpg) no-repeat;
+  background-size: cover;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 571px) {
+
+  .hero-area-bg {
+  background: url(../img/hero-area-xsm.jpg) no-repeat;
+  background-size: cover;
+  }
 }
