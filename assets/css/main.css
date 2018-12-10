@@ -714,6 +714,21 @@ a.back-to-top:hover, a.back-to-top:focus {
   background-size: cover;
 }
 
+.hero-area-thp {
+  background: url(../img/experiences/THP/banner2.png) no-repeat;
+  background-size: cover;
+}
+
+.hero-area-reap {
+  background: url(../img/experiences/reap/banner.png) no-repeat;
+  background-size: cover;
+}
+
+.hero-area-tc {
+  background: url(../img/experiences/TC/banner.png) no-repeat;
+  background-size: cover;
+}
+
 #hero-area {
   color: #fff;
   overflow: hidden;
@@ -732,6 +747,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #hero-area .contents {
   padding: 175px 0px 120px;
+}
+
+#hero-area .contentssm {
+  padding: 100px 0px 60px;
 }
 
 #hero-area .contents h5 {

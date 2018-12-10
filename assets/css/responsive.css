@@ -82,6 +82,19 @@
   background: url(../img/hero-area-sm.jpg) no-repeat;
   background-size: cover;
   }
+  .hero-area-thp {
+  background: url(../img/experiences/THP/banner2.png) no-repeat;
+  background-size: cover;
+  }
+  .hero-area-reap {
+  background: url(../img/experiences/reap/banner.png) no-repeat;
+  background-size: cover;
+  }
+  .hero-area-tc {
+  background: url(../img/experiences/TC/banner.png) no-repeat;
+  background-size: cover;
+  }
+
 }
 
 /* mobile or only mobile */
@@ -89,6 +102,18 @@
 
   .hero-area-bg {
   background: url(../img/hero-area-xsm.jpg) no-repeat;
+  background-size: cover;
+  }
+  .hero-area-thp {
+  background: url(../img/experiences/THP/banner2.png) no-repeat;
+  background-size: cover;
+  }
+  .hero-area-reap {
+  background: url(../img/experiences/reap/banner.png) no-repeat;
+  background-size: cover;
+  }
+  .hero-area-tc {
+  background: url(../img/experiences/TC/banner.png) no-repeat;
   background-size: cover;
   }
 }
